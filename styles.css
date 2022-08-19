@@ -10,6 +10,19 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  color: cornflowerblue;
+  transition: color 0.3s ease-in-out;
+}
+
+a:visited {
+  color: darkorange;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
